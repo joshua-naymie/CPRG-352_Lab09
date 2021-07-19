@@ -1,0 +1,42 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 500px;
+    background-clip: border-box;
+    background-image: url("/Lab7_JDBC/images/jan-antonin.jpg");
+    font-family: 'Lora', serif;
+}
+
+div#addUserDiv {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+}
+
+div#manageUserDiv {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+
+div#editUserDiv {
+    position: absolute;
+    right: 15%;
+    top: 10%;
+}
+
+/*https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting*/
+.emailInput {
+    background-color: rgb(195, 195, 195);
+    cursor: default;
+    outline: none;
+    
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                          supported by Chrome, Edge, Opera and Firefox */
+    
+}
